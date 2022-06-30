@@ -87,3 +87,10 @@ h1.bold {
         margin: 1rem auto;
     }
 }
+
+@media (max-width:475px){
+
+  body{
+    font-size: 12px;
+  }
+}
