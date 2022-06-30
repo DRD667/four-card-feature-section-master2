@@ -1,0 +1,89 @@
+/* HEADER */
+
+header {
+  text-align: center;
+  margin: 1.5rem 0 3rem;
+}
+
+h1.light {
+  color: var(--Grayish-Blue);
+}
+
+h1.bold {
+  color: var(--Very-Dark-Blue);
+}
+
+.brand-quote {
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+/* CARDS */
+
+.card {
+  min-height: 250px;
+  box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.5);
+  margin: 1.5rem 0;
+  -webkit-box-shadow: 7px 18px 40px -17px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 7px 18px 40px -17px rgba(0, 0, 0, 0.23);
+  box-shadow: 7px 18px 40px -17px rgba(0, 0, 0, 0.23);
+  padding: 2rem;
+  color: var(--Very-Dark-Blue);
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-position: 90% 90%;
+  border-top: 5px solid var(--border-color);
+}
+
+.Supervisor {
+  background-image: url(./images/icon-supervisor.svg);
+
+  --border-color: var(--Cyan);
+}
+
+.Team {
+  background-image: url(./images/icon-team-builder.svg);
+  --border-color: var(--red);
+}
+
+.Karma {
+  background-image: url(./images/icon-karma.svg);
+  --border-color: var(--Orange);
+}
+
+.Calculator {
+  background-image: url(./images/icon-calculator.svg);
+  --border-color: var(--Blue);
+}
+
+.description {
+  color: var(--Cyan);
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES */
+@media (min-width:800px){
+    section{
+        width: 80vw;
+        margin: 0 auto;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    section>*{
+        flex:1;
+    }
+
+    body{
+        margin: inherit 10rem;
+    }
+
+    header{
+        width: 40vw;
+        margin: 1rem auto;
+    }
+}
